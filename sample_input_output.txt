@@ -1,0 +1,131 @@
+============================================================
+MEDICAL DIAGNOSIS EXPERT SYSTEM
+SAMPLE INPUT / OUTPUT
+============================================================
+
+
+TEST CASE 1: FLU
+------------------------------------------------------------
+
+Input:
+
+Do you have fever? (yes/no): yes.
+Do you have cough? (yes/no): yes.
+Do you have body_pain? (yes/no): yes.
+Do you have headache? (yes/no): yes.
+
+Other symptoms:
+no.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+Possible diagnosis:
+- flu
+
+
+============================================================
+TEST CASE 2: COMMON COLD
+============================================================
+
+Input:
+
+Do you have fever? (yes/no): no.
+Do you have cough? (yes/no): yes.
+Do you have body_pain? (yes/no): no.
+Do you have headache? (yes/no): no.
+Do you have runny_nose? (yes/no): yes.
+Do you have sneezing? (yes/no): yes.
+Do you have sore_throat? (yes/no): yes.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+Possible diagnosis:
+- common_cold
+
+
+============================================================
+TEST CASE 3: ALLERGY
+============================================================
+
+Input:
+
+Do you have sneezing? (yes/no): yes.
+Do you have runny_nose? (yes/no): yes.
+Do you have itchy_eyes? (yes/no): yes.
+Do you have watery_eyes? (yes/no): yes.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+Possible diagnosis:
+- allergy
+
+
+============================================================
+TEST CASE 4: MIGRAINE
+============================================================
+
+Input:
+
+Do you have headache? (yes/no): yes.
+Do you have nausea? (yes/no): yes.
+Do you have vomiting? (yes/no): yes.
+Do you have light_sensitivity? (yes/no): yes.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+Possible diagnosis:
+- migraine
+
+
+============================================================
+TEST CASE 5: FOOD POISONING
+============================================================
+
+Input:
+
+Do you have fever? (yes/no): yes.
+Do you have vomiting? (yes/no): yes.
+Do you have stomach_pain? (yes/no): yes.
+Do you have diarrhea? (yes/no): yes.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+Possible diagnosis:
+- food_poisoning
+
+
+============================================================
+TEST CASE 6: NO MATCHING DIAGNOSIS
+============================================================
+
+Input:
+
+Symptoms provided do not satisfy any predefined
+diagnosis rule.
+
+Output:
+
+==========================================
+          DIAGNOSIS RESULT
+==========================================
+No matching diagnosis found.
+
+
+============================================================
+END OF SAMPLE INPUT / OUTPUT
+============================================================
